@@ -1,0 +1,19 @@
+h1 {
+    color: brown
+  }
+  {
+    margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  }
+  html{
+    scrool-behaviour: smooth;
+  }
+  body{
+    baackground-color: #db95ad;
+  }
+  /* custom scroll bar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }

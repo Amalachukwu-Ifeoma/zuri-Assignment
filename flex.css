@@ -1,0 +1,76 @@
+* {
+box-sizing: border-box;
+margin:0;
+padding: 0;
+}
+
+body {
+font-family: lexend Deca;
+}
+
+p{
+    font-size: 15px;
+}
+
+.img{
+    size: 5px;
+    position: absolute;
+    top: 30px;
+}
+.logo{
+    display: flex;
+    size: 2px;
+    position: absolute;
+    top: 30px;
+}
+
+.flex-container {
+display:flex;
+background-color: #;
+justify-content: center;
+}
+
+.sedans {
+    width: 550px;
+    height: 550px;
+    background-color: hsl(32, 100%, 50%);
+    color: beige;
+    margin: 5px;
+    text-align: center;
+    padding-top: 250px;
+    font-family: lexend Deca;
+}
+
+.suv {
+    width: 550px;
+    height: 550px;
+    background-color: hsl(183, 51%, 22%);
+    color: azure;
+    margin: 5px;
+    text-align: center;
+    padding-top: 250px;
+    font-family: lexend Deca;
+}
+
+.luxury {
+    width: 550px;
+    height: 550px;
+    background: hsl(180, 100%, 20%);
+    color: beige;
+    margin: 5px;
+    text-align: center;
+    padding-top: 250px;
+    font-family: lexend Deca;
+}
+
+.button{
+    background-color: azure;
+    color: gray;
+    padding: 10px;
+    text-decoration: none;
+    position: absolute;
+    top: 400px;
+    border-radius: 50px;
+}
+
+@media (mobile: 375px; desktop: 1440px) 
